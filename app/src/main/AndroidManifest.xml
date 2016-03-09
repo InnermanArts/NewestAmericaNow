@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dennisthicklin.naturalizationgame3" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lg1_converted"
+        android:label="Naturalization Game"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UI.MainActivity"
+            android:label="NaturalizationGame"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.categoriesPage"
+            android:label="@string/title_activity_activity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UI.settings_activity"
+            android:label="@string/title_activity_settingsactivity" >
+        </activity>
+        <activity
+            android:name=".UI.practice_activity"
+            android:label="@string/title_activity_practice" >
+        </activity>
+        <activity
+            android:name=".UI.writingvocab_activity"
+            android:label="@string/title_activity_newpractice_activity" >
+        </activity>
+        <activity
+            android:name=".UI.Splash"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.civics_activity"
+            android:label="@string/title_activity_civics_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UI.amgov_activity"
+            android:label="@string/title_activity_amgov_activity" >
+        </activity>
+        <activity
+            android:name=".UI.readvocab_activity"
+            android:label="@string/title_activity_readvocab_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UI.hist_activity"
+            android:label="@string/title_activity_hist_activity" >
+        </activity>
+        <activity
+            android:name=".history_activity"
+            android:label="@string/title_activity_history_activity" >
+        </activity>
+        <activity
+            android:name=".amgov_activity"
+            android:label="@string/title_activity_amgov_activity" >
+        </activity>
+    </application>
+
+</manifest>

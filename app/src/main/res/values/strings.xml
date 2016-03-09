@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NaturalizationGame3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="title_activity_settingsactivity">settingsactivity</string>
+    <string name="title_activity_practice">practiceActivity</string>
+    <string name="title_activity_practice_">practice_Activity</string>
+    <string name="title_activity_settings_activity">settings_activity</string>
+    <string name="title_activity_newpractice_activity">newpractice_activity</string>
+    <string name="title_activity_writingvocab_activity">writingvocab_activity</string>
+    <string name="title_activity_practice_activity">practice_activity</string>
+    <string name="title_activity_civics_activity">civics_activity</string>
+    <string name="title_activity_amgov_activity">amgov_activity</string>
+    <string name="title_activity_readvocab_activity">readvocab_activity</string>
+    <string name="title_activity_hist_activity">hist_activity</string>
+    <string name="acquire_speech_input">Say the Word!</string>
+    <string name="speech_text_not_supported">Text to Speech is not Supported on your Device</string>
+    <string name="words_edit_text">Word or Phrase is Displayed here</string>
+    <string-array name="languages">
+
+        <item>English</item>
+
+    </string-array>
+    <string name="title_activity_history_activity">history_activity</string>
+</resources>
